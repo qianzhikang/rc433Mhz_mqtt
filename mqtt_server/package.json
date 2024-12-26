@@ -1,0 +1,17 @@
+{
+  "name": "mqtt_server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "debug": "node --inspect-brk ./app.js"
+  },
+  "type": "commonjs",
+  "author": "qzk",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mqtt": "^5.10.3"
+  }
+}
